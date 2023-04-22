@@ -8,10 +8,7 @@ import de.tschuehly.thymeleafviewcomponent.toProperty
 class IndexViewComponent {
 
     fun render() = ViewContext(
-        "model" toProperty DemoModel("Thomas")
+        "model" toProperty ModelTest("Thomas")
     )
 
-    class DemoModel(
-        val test: String
-    )
 }

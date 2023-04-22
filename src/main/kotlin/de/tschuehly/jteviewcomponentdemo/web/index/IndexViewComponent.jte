@@ -1,8 +1,8 @@
-@import de.tschuehly.jteviewcomponentdemo.web.index.IndexViewComponent.DemoModel
+@import de.tschuehly.jteviewcomponentdemo.web.index.ModelTest
 
-@param DemoModel model
+@param ModelTest model
 
 
 <script src="http://localhost:35729/livereload.js"></script>
 
-Hello ${model.getTest()} heute ist ein toller Tag
+Hello ${model.getExampleProp()} heute ist eine 1^23
