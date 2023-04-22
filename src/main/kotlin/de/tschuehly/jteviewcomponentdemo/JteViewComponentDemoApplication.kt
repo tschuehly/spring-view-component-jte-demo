@@ -1,7 +1,8 @@
 package de.tschuehly.jteviewcomponentdemo
 
 import de.tschuehly.jteviewcomponentdemo.web.index.IndexViewComponent
-import de.tschuehly.thymeleafviewcomponent.ViewContext
+import de.tschuehly.jteviewcomponentdemo.web.index.ModelTest
+import de.tschuehly.spring.viewcomponent.core.ViewContext
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.stereotype.Controller
@@ -26,7 +27,7 @@ class IndexController(private val indexViewComponent: IndexViewComponent) {
     fun jte(
         model: Model
     ): String {
-        model.addAttribute("model","Hello World")
+        model.addAttribute("model",ModelTest("Hello World"))
         return "de/tschuehly/jteviewcomponentdemo/web/index/IndexViewComponent"
     }
 }

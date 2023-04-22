@@ -1,2 +1,2 @@
 rootProject.name = "jte-view-component-demo"
-includeBuild("..\\thymeleaf-view-component")
+includeBuild("..\\spring-view-component")

@@ -20,8 +20,11 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-devtools")
+
     implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("de.tschuehly:thymeleaf-view-component")
+
+    implementation("de.tschuehly:spring-view-component-jte")
+
     implementation("gg.jte:jte-spring-boot-starter-3:2.3.1")
     implementation("gg.jte:jte-kotlin:2.3.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
